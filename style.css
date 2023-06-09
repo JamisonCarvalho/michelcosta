@@ -1,0 +1,144 @@
+:root{
+    --bg: #262525;
+    --white: #fff;
+    --cor1: #0FC2C0; 
+    --cor2: #0CABA8; 
+    --cor3: #008F8C; 
+    --cor4: #015958; 
+    --cor5: #023535; 
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+body{    
+    background-color: var(--bg);   
+    background-image: url(img/michel-costa-sembg4.png), url(img/michel-costa-sembg5.png), url(img/michel-costa-sembg6.png);
+    background-position: right top, left top, left top;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position-y: 20px, 0px, 0px;
+    background-position-x: 570px, 60px, 0;
+}
+
+
+a{
+    text-decoration: none;
+    color: #ffff;
+    padding-right: 15px;
+    font-size: 1.2rem;
+    /*font-family: 'Courier New', Courier, monospace;*/
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sobre{
+    font-size: 30px;
+    width: 50%;
+    padding: 120px 0px 260px 115px;
+    /*padding-top: 120px;
+    padding-left: 115px;
+    padding-bottom: 250px;*/
+}
+
+.botao{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /*background-color: #ff9f1c;*/
+    background-color: #DD7230;
+    width: 88%;
+    border-radius: 7px;
+    color: var(--white);
+    transition-duration: 0.4s;
+}
+
+.botao:hover{
+    background-color: #80431d;
+}
+
+.sobre .p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.fotos{
+    display: flex;
+    background-color: var(--white);
+    padding: 70px 0px 150px 10px;
+    align-items: start;
+}
+
+.fotos img{
+    border: 5px solid var(--cor3);
+    border-radius: 10px;
+    width: 300px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.fotos h1{
+    padding: 0px 100px 0px 200px;
+    color: var(--cor1);
+    font-size: 3em;
+}
+
+.fotos p{
+    color: #000;
+    font-size: 1.8em;
+}
+
+.fomulario{
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    display: flexbox;
+    color: var(--bg);
+    text-align: left;
+    padding: 5px;
+    /*padding: 10px 0px 10px 600px;*/
+}
+
+.fomulario h2{
+    font-size: 3.5em;
+    color: var(--cor1);
+}
+
+.fomulario input{
+    width: 300px;
+    border-radius: 3px;
+}
+
+.enviar{
+    transition-duration: 0.4s;
+    background-color: #DD7230;
+}
+
+.enviar:hover{
+    background-color: #80431d;
+}
+
+#duvida{
+    width: 500px;
+    height: 200px;
+}
+
+.redesSociais{
+    padding: 15px 5px;
+    justify-content: space-between;
+}
+
+.insta{
+    width: 55px;
+    height: 55px;
+}
+
+
+
